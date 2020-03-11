@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="702ecad3-2a3b-4b87-9b79-5c521b49a668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -151,7 +150,7 @@
       <workItem from="1583122971128" duration="2194000" />
       <workItem from="1583125468129" duration="1932000" />
       <workItem from="1583895296415" duration="3181000" />
-      <workItem from="1583898653412" duration="58000" />
+      <workItem from="1583898653412" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="Elysium Mall By JiaJun Zhu">
       <created>1582644203111</created>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583898533190</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Elysium Mall By JiaJun Zhu">
+      <created>1583898717985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583898717985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,10 +291,10 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="339" y="127" key="#Project_Structure/38.23.1402.877@38.23.1402.877" timestamp="1583896588373" />
-    <state x="255" y="50" key="CommitChangelistDialog2" timestamp="1583898531663">
+    <state x="255" y="50" key="CommitChangelistDialog2" timestamp="1583898717692">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="255" y="50" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1583898531663" />
+    <state x="255" y="50" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1583898717692" />
     <state x="435" y="67" key="CommitChangelistDialog2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127412011" />
     <state x="576" y="348" width="417" height="281" key="Github.ShareDialog" timestamp="1582652187540">
       <screen x="39" y="23" width="1401" height="877" />
@@ -324,10 +330,10 @@
     <state x="173" y="63" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1582648863270" />
     <state x="174" y="63" key="SettingsEditor/39.23.1401.877@39.23.1401.877" timestamp="1582651615911" />
     <state x="694" y="273" key="SettingsEditor/46.23.2514.1417@46.23.2514.1417" timestamp="1583124832822" />
-    <state x="324" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583898550164">
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583898736121">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="324" y="189" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1583898550164" />
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1583898736121" />
     <state x="559" y="291" key="Vcs.Push.Dialog.v2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127418276" />
     <state x="389" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582648473939">
       <screen x="38" y="23" width="1402" height="877" />

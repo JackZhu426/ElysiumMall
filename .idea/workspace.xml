@@ -148,7 +148,8 @@
       <workItem from="1582651292309" duration="466000" />
       <workItem from="1582652144727" duration="416000" />
       <workItem from="1583122971128" duration="2194000" />
-      <workItem from="1583125468129" duration="1885000" />
+      <workItem from="1583125468129" duration="1932000" />
+      <workItem from="1583895296415" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="Elysium Mall By JiaJun Zhu">
       <created>1582644203111</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583127368084</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Elysium Mall By JiaJun Zhu">
+      <created>1583127412196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583127412196</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,11 +265,11 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="271" y="114" key="#Deployment/38.23.1402.877@38.23.1402.877" timestamp="1582648185069" />
-    <state x="435" y="67" key="CommitChangelistDialog2" timestamp="1583127367878">
+    <state x="435" y="67" key="CommitChangelistDialog2" timestamp="1583127412012">
       <screen x="46" y="23" width="2514" height="1417" />
     </state>
     <state x="255" y="50" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1582648533774" />
-    <state x="435" y="67" key="CommitChangelistDialog2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127367878" />
+    <state x="435" y="67" key="CommitChangelistDialog2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127412011" />
     <state x="576" y="348" width="417" height="281" key="Github.ShareDialog" timestamp="1582652187540">
       <screen x="39" y="23" width="1401" height="877" />
     </state>
@@ -296,11 +304,11 @@
     <state x="173" y="63" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1582648863270" />
     <state x="174" y="63" key="SettingsEditor/39.23.1401.877@39.23.1401.877" timestamp="1582651615911" />
     <state x="694" y="273" key="SettingsEditor/46.23.2514.1417@46.23.2514.1417" timestamp="1583124832822" />
-    <state x="559" y="291" key="Vcs.Push.Dialog.v2" timestamp="1583127375800">
+    <state x="559" y="291" key="Vcs.Push.Dialog.v2" timestamp="1583127418276">
       <screen x="46" y="23" width="2514" height="1417" />
     </state>
     <state x="324" y="189" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1582648235431" />
-    <state x="559" y="291" key="Vcs.Push.Dialog.v2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127375800" />
+    <state x="559" y="291" key="Vcs.Push.Dialog.v2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127418276" />
     <state x="389" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582648473939">
       <screen x="38" y="23" width="1402" height="877" />
     </state>

@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ElysiumMall" />
+        <module name="mall-admin" />
+        <module name="mall-security" />
+        <module name="mall-mbg" />
+        <module name="mall-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="13" />
+    <bytecodeTargetLevel target="13">
+      <module name="mall-security" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

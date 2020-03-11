@@ -2,346 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="702ecad3-2a3b-4b87-9b79-5c521b49a668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/api/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/api/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/api/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/api/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/exception/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/jack/mall/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/mall-mbg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsHelpCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsHelpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsMemberReportMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsPrefrenceAreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsPrefrenceAreaProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsSubjectCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsSubjectCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsSubjectProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsTopicCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsTopicCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/CmsTopicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsCartItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsCompanyAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/OmsOrderSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsAlbumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsAlbumPicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsCommentReplayMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsFeightTemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsMemberPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductAttributeCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductAttributeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductAttributeValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductCategoryAttributeRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductFullReductionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductLadderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductOperateLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsProductVertifyRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/PmsSkuStockMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsCouponProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsCouponProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsFlashPromotionLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsFlashPromotionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsFlashPromotionProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsFlashPromotionSessionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsHomeAdvertiseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsHomeBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsHomeNewProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsHomeRecommendProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/SmsHomeRecommendSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsAdminLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsAdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsAdminPermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsAdminRoleRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsIntegrationConsumeSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberMemberTagRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberRuleSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberTagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMemberTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsResourceCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsRoleMenuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsRolePermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/mapper/UmsRoleResourceRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsHelpCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsHelpCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsHelpExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsMemberReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsMemberReportExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsPrefrenceArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsPrefrenceAreaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsPrefrenceAreaProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsPrefrenceAreaProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsSubjectProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopicCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopicCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopicComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopicCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/CmsTopicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsCartItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsCompanyAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsCompanyAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderOperateHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderOperateHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderReturnApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderReturnApplyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderReturnReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderReturnReasonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/OmsOrderSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsAlbumExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsAlbumPic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsAlbumPicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsCommentReplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsCommentReplayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsFeightTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsFeightTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsMemberPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsMemberPriceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttributeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttributeCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttributeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductAttributeValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductCategoryAttributeRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductCategoryAttributeRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductFullReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductFullReductionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductLadderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductOperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductOperateLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductVertifyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsProductVertifyRecordExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsSkuStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/PmsSkuStockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsCouponProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsFlashPromotionSessionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeAdvertise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeAdvertiseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeNewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeNewProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeRecommendProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeRecommendProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeRecommendSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/SmsHomeRecommendSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminPermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminPermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminRoleRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsAdminRoleRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsGrowthChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsGrowthChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsIntegrationChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsIntegrationChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsIntegrationConsumeSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsIntegrationConsumeSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberLevelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberMemberTagRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberMemberTagRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberReceiveAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberRuleSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberRuleSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberStatisticsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberStatisticsInfoExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberTagExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMemberTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsMenuExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsPermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsResourceCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsResourceCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsResourceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRoleMenuRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRoleMenuRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRolePermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRolePermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRoleResourceRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/jack/mall/model/UmsRoleResourceRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsHelpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsMemberReportMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/CmsTopicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsCartItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsAlbumMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductLadderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/PmsSkuStockMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsCouponMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberTagMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsResourceCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsRoleMenuRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/macro/mall/mapper/UmsRoleResourceRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/mall-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/DynamicAccessDecisionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/DynamicSecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/DynamicSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/DynamicSecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/com/jack/security/util/JwtTokenUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin/mall-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/mall-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-mbg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -487,7 +150,8 @@
       <workItem from="1582652144727" duration="416000" />
       <workItem from="1583122971128" duration="2194000" />
       <workItem from="1583125468129" duration="1932000" />
-      <workItem from="1583895296415" duration="1548000" />
+      <workItem from="1583895296415" duration="3181000" />
+      <workItem from="1583898653412" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="Elysium Mall By JiaJun Zhu">
       <created>1582644203111</created>
@@ -594,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583895658991</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Elysium Mall By JiaJun Zhu">
+      <created>1583898533190</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583898533190</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,37 +285,37 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="339" y="127" key="#Project_Structure/38.23.1402.877@38.23.1402.877" timestamp="1583896588373" />
-    <state x="255" y="50" key="CommitChangelistDialog2" timestamp="1583895658545">
+    <state x="255" y="50" key="CommitChangelistDialog2" timestamp="1583898531663">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="255" y="50" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1583895658545" />
+    <state x="255" y="50" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1583898531663" />
     <state x="435" y="67" key="CommitChangelistDialog2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127412011" />
     <state x="576" y="348" width="417" height="281" key="Github.ShareDialog" timestamp="1582652187540">
       <screen x="39" y="23" width="1401" height="877" />
     </state>
     <state x="576" y="348" width="417" height="281" key="Github.ShareDialog/39.23.1401.877@39.23.1401.877" timestamp="1582652187540" />
-    <state width="680" height="229" key="GridCell.Tab.0.bottom" timestamp="1583896420278">
+    <state width="680" height="229" key="GridCell.Tab.0.bottom" timestamp="1583898564984">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="680" height="229" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1583896420278" />
+    <state width="680" height="229" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1583898564984" />
     <state width="1302" height="221" key="GridCell.Tab.0.bottom/39.23.1401.877@39.23.1401.877" timestamp="1582651763662" />
     <state width="651" height="221" key="GridCell.Tab.0.bottom/46.23.2514.1417@46.23.2514.1417" timestamp="1583125402712" />
-    <state width="680" height="229" key="GridCell.Tab.0.center" timestamp="1583896420277">
+    <state width="680" height="229" key="GridCell.Tab.0.center" timestamp="1583898564982">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="680" height="229" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1583896420277" />
+    <state width="680" height="229" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1583898564982" />
     <state width="1302" height="221" key="GridCell.Tab.0.center/39.23.1401.877@39.23.1401.877" timestamp="1582651763661" />
     <state width="651" height="221" key="GridCell.Tab.0.center/46.23.2514.1417@46.23.2514.1417" timestamp="1583125402711" />
-    <state width="680" height="229" key="GridCell.Tab.0.left" timestamp="1583896420276">
+    <state width="680" height="229" key="GridCell.Tab.0.left" timestamp="1583898564981">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="680" height="229" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1583896420276" />
+    <state width="680" height="229" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1583898564981" />
     <state width="1302" height="221" key="GridCell.Tab.0.left/39.23.1401.877@39.23.1401.877" timestamp="1582651763661" />
     <state width="651" height="221" key="GridCell.Tab.0.left/46.23.2514.1417@46.23.2514.1417" timestamp="1583125402710" />
-    <state width="680" height="229" key="GridCell.Tab.0.right" timestamp="1583896420277">
+    <state width="680" height="229" key="GridCell.Tab.0.right" timestamp="1583898564983">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="680" height="229" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1583896420277" />
+    <state width="680" height="229" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1583898564983" />
     <state width="1302" height="221" key="GridCell.Tab.0.right/39.23.1401.877@39.23.1401.877" timestamp="1582651763661" />
     <state width="651" height="221" key="GridCell.Tab.0.right/46.23.2514.1417@46.23.2514.1417" timestamp="1583125402711" />
     <state x="694" y="273" key="SettingsEditor" timestamp="1583124832822">
@@ -653,10 +324,10 @@
     <state x="173" y="63" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1582648863270" />
     <state x="174" y="63" key="SettingsEditor/39.23.1401.877@39.23.1401.877" timestamp="1582651615911" />
     <state x="694" y="273" key="SettingsEditor/46.23.2514.1417@46.23.2514.1417" timestamp="1583124832822" />
-    <state x="324" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583895683952">
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583898550164">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="324" y="189" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1583895683952" />
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1583898550164" />
     <state x="559" y="291" key="Vcs.Push.Dialog.v2/46.23.2514.1417@46.23.2514.1417" timestamp="1583127418276" />
     <state x="389" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582648473939">
       <screen x="38" y="23" width="1402" height="877" />

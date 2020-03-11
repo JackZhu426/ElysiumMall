@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mall-admin" />
+        <module name="mall-common" />
         <module name="mall-security" />
         <module name="mall-mbg" />
-        <module name="mall-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
